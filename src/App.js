@@ -1,18 +1,19 @@
 import './App.css';
-import { navBar } from './componentes/navBar'
-import { carrusel } from './componentes/carrusel'
-import { tarjetas } from './componentes/tarjetas'
+import { Nav, Navbar, NavDropdown, Form, FormControl } from "react-boostrap";
+
+//componentes
+
+import './componentes/carrusel';
+import { navBar } from "./componentes/NavBar/navBar";
+import './componentes/tarjetas';
 
 
-function commerce() {
-
+function App() {
   return (
-    <div className='commerce'>
+    <div className="App" >
       <navBar />
-
     </div>
-
   );
 }
 
-export default commerce;
+export default App;

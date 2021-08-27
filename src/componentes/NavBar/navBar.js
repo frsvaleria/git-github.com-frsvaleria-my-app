@@ -1,5 +1,9 @@
 import React from 'React';
+import { navBar } from "react-boostrap";
 import { Nav, Navbar, NavDropdown, Form, FormControl } from "react-boostrap";
+import './App.css';
+
+
 
 
 export const NavBar = () => {
@@ -27,3 +31,9 @@ export const NavBar = () => {
         </div>
     );
 }
+
+export default NavBar;
+
+
+
+
