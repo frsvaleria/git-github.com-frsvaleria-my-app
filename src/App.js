@@ -1,29 +1,18 @@
 import './App.css';
 import { NavBar } from "./componentes/NavBar/navBar";
-import { carousel } from "./componentes/carrusel/Carousel";
-
+import { Carrousel } from "./componentes/carrusel/Carousel";
+import { cardG } from "./componentes/Target/targets";
 //componentes
 
 function App() {
   return (
     <div className="App" >
       <NavBar />
+      <Carrousel />
+      <cardG />
     </div>
   );
 }
-
-function App() {
-  return (
-    <div className="App" >
-      <Carousel />
-    </div>
-  );
-}
-
-
-
-
-
 
 
 export default App;
