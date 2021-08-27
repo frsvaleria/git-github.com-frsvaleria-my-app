@@ -1,19 +1,29 @@
 import './App.css';
-import { Nav, Navbar, NavDropdown, Form, FormControl } from "react-boostrap";
+import { NavBar } from "./componentes/NavBar/navBar";
+import { carousel } from "./componentes/carrusel/Carousel";
 
 //componentes
-
-import './componentes/carrusel';
-import { navBar } from "./componentes/NavBar/navBar";
-import './componentes/tarjetas';
-
 
 function App() {
   return (
     <div className="App" >
-      <navBar />
+      <NavBar />
     </div>
   );
 }
+
+function App() {
+  return (
+    <div className="App" >
+      <Carousel />
+    </div>
+  );
+}
+
+
+
+
+
+
 
 export default App;

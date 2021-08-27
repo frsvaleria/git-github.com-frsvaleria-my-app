@@ -1,11 +1,10 @@
-import React from 'React';
-import { carrusel } from "react-boostrap";
+import React from 'react';
+import { carousel } from "react-boostrap";
 
 
-export const carrusel = () => {
+export const carousel = () => {
     return (
         <div>
-
             <Carousel>
                 <Carousel.Item>
                     <img
@@ -46,3 +45,5 @@ export const carrusel = () => {
         </div>
     );
 }
+
+export default carousel;
